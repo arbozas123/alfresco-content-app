@@ -1,0 +1,152 @@
+{
+  "ACA_FOLDER_RULES": {
+    "ACTIONS": {
+      "MANAGE_RULES": "Διαχείριση Κανόνων",
+      "GO_BACK": "Επιστροφή"
+    },
+    "EDIT_RULE_DIALOG": {
+      "CANCEL": "Ακύρωση",
+      "CLOSE": "Κλείσιμο",
+      "CREATE": "Δημιουργία",
+      "CREATE_TITLE": "Δημιουργία κανόνα",
+      "UPDATE": "Ενημέρωση",
+      "UPDATE_TITLE": "Επεξεργασία κανόνα",
+      "OPEN_ACTION_MENU": "Άνοιγμα μενού ενεργειών"
+    },
+    "RULE_DETAILS": {
+      "LABEL": {
+        "NAME": "Όνομα",
+        "DESCRIPTION": "Περιγραφή",
+        "WHEN": "Όταν",
+        "PERFORM_ACTIONS": "Εκτελέστε ενέργειες",
+        "OPTIONS": "Άλλες ρυθμίσεις"
+      },
+      "PLACEHOLDER": {
+        "NAME": "Εισαγάγετε όνομα κανόνα",
+        "DESCRIPTION": "Εισαγάγετε περιγραφή κανόνα",
+        "NO_DESCRIPTION": "Χωρίς περιγραφή",
+        "VALUE": "Τιμή",
+        "CHOOSE_FOLDER": "Επιλέξτε φάκελο προορισμού"
+      },
+      "ERROR": {
+        "REQUIRED": "Αυτό το πεδίο είναι υποχρεωτικό",
+        "RULE_COMPOSITE_CONDITION_INVALID": "Ένα ή περισσότερα σύνολα συνθηκών είναι κενά",
+        "INSUFFICIENT_TRIGGERS_SELECTED": "Απαιτείται τουλάχιστον μία σκανδάλη"
+      },
+      "TRIGGERS": {
+        "INBOUND": "Τα στοιχεία δημιουργούνται ή εισέρχονται σε αυτόν τον φάκελο",
+        "UPDATE": "Τα στοιχεία ενημερώνονται",
+        "OUTBOUND": "Τα στοιχεία διαγράφονται ή απομακρύνονται από αυτόν τον φάκελο"
+      },
+      "OPTIONS": {
+        "IS_INHERITABLE": "Ο κανόνας ισχύει για υποφακέλους",
+        "IS_ASYNCHRONOUS": "Εκτέλεση κανόνα στο παρασκήνιο",
+        "DISABLE_RULE": "Απενεργοποίηση κανόνα",
+        "ERROR_SCRIPT": "Εάν παρουσιαστούν σφάλματα, εκτελέστε script",
+        "NO_SCRIPT": "Κανένα"
+      },
+      "COMPARATORS": {
+        "EQUALS": "(=) Ίσο",
+        "CONTAINS": "Περιέχει",
+        "STARTS_WITH": "Ξεκινά με",
+        "ENDS_WITH": "Τελειώνει με",
+        "GREATER_THAN": "(>) Μεγαλύτερο από",
+        "LESS_THAN": "(<) Μικρότερο από",
+        "GREATER_THAN_OR_EQUAL": "(>=) Μεγαλύτερο ή ίσο με",
+        "LESS_THAN_OR_EQUAL": "(<=) Μικρότερο ή ίσο με",
+        "ON": "(=) Την",
+        "AFTER": "(>) Μετά την",
+        "BEFORE": "(<) Πριν την",
+        "ON_OR_AFTER": "(>=) Την ή μετά την",
+        "ON_OR_BEFORE": "(<=) Την ή πριν την",
+        "INSTANCE_OF": "(=) Είναι"
+      },
+      "FIELDS": {
+        "NAME": "Όνομα",
+        "SIZE": "Μέγεθος",
+        "MIMETYPE": "Mimetype",
+        "ENCODING": "Κωδικοποίηση",
+        "HAS_CATEGORY": "Έχει κατηγορία",
+        "HAS_TAG": "Έχει ετικέτα",
+        "HAS_ASPECT": "Έχει όψη"
+      },
+      "LOGIC_OPERATORS": {
+        "IF": "Αν",
+        "NOT_IF": "ΟΧΙ Αν",
+        "AND": "Και",
+        "OR": "Ή"
+      },
+      "CONDITION_BUTTONS": {
+        "ADD_CONDITION": "Προσθήκη συνθήκης",
+        "ADD_GROUP": "Προσθήκη ομάδας συνθηκών",
+        "REMOVE": "Αφαίρεση"
+      },
+      "NO_CONDITIONS": "Δεν υπάρχουν συνθήκες",
+      "NO_CONDITIONS_IN_GROUP": "Δεν υπάρχουν συνθήκες σε αυτήν την ομάδα",
+      "ACTION_BUTTONS": {
+        "ADD_ACTION": "Προσθήκη ενέργειας",
+        "REMOVE": "Αφαίρεση"
+      },
+      "ACTION_SELECT_PLACEHOLDER": "Επιλέξτε μια ενέργεια"
+    },
+    "MANAGE_RULES": {
+      "TOOLBAR": {
+        "BREADCRUMB": {
+          "RULES": "κανόνες"
+        },
+        "ACTIONS": {
+          "CREATE_RULE": "Δημιουργία κανόνα",
+          "LINK_RULES": "Σύνδεση κανόνων",
+          "EDIT_RULE": "Επεξεργασία",
+          "SEE_IN_FOLDER": "Προβολή στον φάκελο",
+          "INHERIT_RULES": "Κληρονόμηση κανόνων"
+        }
+      },
+      "EMPTY_RULES_LIST": {
+        "TITLE": "Η λίστα είναι άδεια",
+        "SUBTITLE": "Δεν υπάρχουν ακόμη ορισμένοι κανόνες για αυτόν τον φάκελο."
+      }
+    },
+    "CONFIRMATION_DIALOG": {
+      "DELETE_RULE": {
+        "TITLE": "Διαγραφή κανόνα",
+        "MESSAGE": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον κανόνα;"
+      },
+      "DELETE_RULE_SET_LINK": {
+        "TITLE": "Διαγραφή συνδέσμου συνόλου κανόνων",
+        "MESSAGE": "Είστε σίγουροι ότι θέλετε να διαγράψετε τον σύνδεσμο για αυτό το σύνολο κανόνων;"
+      }
+    },
+    "RULE_LIST": {
+      "OWNED_RULES": "Κανόνες από τον τρέχοντα φάκελο",
+      "LINKED_RULES": "Κανόνες από συνδεδεμένο φάκελο",
+      "INHERITED_RULES": "Κληρονομημένοι κανόνες",
+      "LOAD_MORE_RULE_SETS": "Φόρτωση κανόνων από άλλους φακέλους",
+      "LOAD_MORE_RULES": "Φόρτωση περισσότερων κανόνων",
+      "LOADING_RULES": "Φόρτωση κανόνων",
+      "TOGGLE_RULE_STATE": "Εναλλαγή ενεργοποίησης κανόνα",
+      "INHERITED_RULES_WILL_BE_RUN_FIRST": "Οι κληρονομημένοι κανόνες θα εκτελεστούν πρώτα",
+      "ALL_LINKED_RULES_ARE_DISABLED": "Όλοι οι κανόνες που συνδέθηκαν από αυτό το σύνολο είναι απενεργοποιημένοι"
+    },
+    "LINK_RULES_DIALOG": {
+      "TITLE": "Επιλέξτε ένα φάκελο για να συνδέσετε κανόνες",
+      "CANCEL": "Ακύρωση",
+      "SUBMIT": "Επιλογή φακέλου",
+      "EMPTY_RULES_LIST": {
+        "TITLE": "Δεν υπάρχουν ιδιόκτητοι κανόνες",
+        "SUBTITLE": "Ο επιλεγμένος φάκελος δεν διαθέτει δικούς του κανόνες."
+      },
+      "LIST_OF_RULES_TO_LINK": "Λίστα κανόνων που θα συνδεθούν",
+      "ERRORS": {
+        "REQUEST_FAILED": "Σφάλμα κατά την προσπάθεια δημιουργίας συνδέσμου για ένα σύνολο κανόνων"
+      }
+    },
+    "ERRORS": {
+      "DELETE_RULE_SET_LINK_FAILED": "Σφάλμα κατά την προσπάθεια διαγραφής συνδέσμου από ένα σύνολο κανόνων"
+    },
+    "AUTOCOMPLETE": {
+      "NO_OPTIONS_FOUND": "Δεν βρέθηκαν επιλογές"
+    }
+  }
+}
+s

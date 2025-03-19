@@ -1,0 +1,10 @@
+{
+  "AOS": {
+    "ACTION_TITLE": "Επεξεργασία στο Microsoft Office™",
+    "ERRORS": {
+      "UNSUPPORTED_PLATFORM": "Υποστηρίζεται μόνο σε συστήματα Windows και MacOS",
+      "ALREADY_LOCKED": "Το έγγραφο '{{ nodeId }}' είναι κλειδωμένο από τον/την '{{ lockOwner }}'",
+      "MISSING_PROTOCOL_HANDLER": "Δεν βρέθηκε διαχειριστής πρωτοκόλλου για το '{{ nodeName }}'"
+    }
+  }
+}
